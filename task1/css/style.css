@@ -114,3 +114,10 @@ header{
     display: flex;
     flex-direction: column;
 }
+
+.portfolio{
+    margin-top: 2vw;
+    background-color: #cacaca;
+    height: 5vw;
+    width: 100%;
+}
