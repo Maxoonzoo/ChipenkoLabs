@@ -117,7 +117,7 @@ header{
 
 .portfolio{
     margin-top: 2vw;
-    height: 34vw;
+    height: 32vw;
     width: 100%;
 }
 
@@ -152,6 +152,7 @@ header{
 }
 
 .footer{
+    margin-top: 2vw;
     width: 100%;
     height: 7vw;
     background-color: #74BBE7;
@@ -162,4 +163,32 @@ header{
 
 .icon_soc{
     margin: 0.3vw;
+}
+
+.newsblock{
+    margin-top: -1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.news{
+    display: flex;
+    flex-direction: row;
+}
+
+.new{
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    transition: 0.3s;
+}
+
+.new:hover{
+    scale: 1.05;
+}
+
+.testimony{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
