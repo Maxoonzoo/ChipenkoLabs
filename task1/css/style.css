@@ -188,6 +188,8 @@ header{
     display: flex;
     flex-direction: row;
     margin-bottom: 3vw;
+    transition: 0.5s;
+    border-radius: 25px;
 }
 
 .portimage{
@@ -206,4 +208,9 @@ header{
     margin-left: 0.5vw;
     color: rgba(14, 64, 140, 0.8);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.portfolioEXM:hover{
+    background-color: #f4f4f4;
+    scale: 1.03;
 }
